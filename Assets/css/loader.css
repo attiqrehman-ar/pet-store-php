@@ -1,0 +1,27 @@
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.5); /* Semi-transparent black background */
+    z-index: 9999; /* Ensure it's above other content */
+    display: none; /* Initially hide the loader */
+  }
+
+  /* Style for the loader image */
+  .loader-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+  }
+
+  /* Style for the body content */
+  .body-content {
+    /* Add styles for your body content here */
+    padding: 20px;
+    color: white;
+  }

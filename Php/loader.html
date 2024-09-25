@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Assets/css/loader.css">
+</head>
+
+<body>
+
+
+<!-- Loader container -->
+<div class="loader-container" id="loaderContainer">
+    <!-- Loader image -->
+    <img src="../Assets/pictures/loader.svg" alt="Loader" class="loader-img">
+    <!-- <img src="../Assets/pictures/tube-spinner.svg" alt="Loader" class="loader-img"> -->
+  </div>  
+  
+  
+  <script>
+    function showloader(){
+  // Get the loader container element
+  var loaderContainer = document.getElementById('loaderContainer');
+      // Display the loader container
+      loaderContainer.style.display = 'block';
+  
+      // Hide the loader after 2 seconds
+      setTimeout(function() {
+        // Hide the loader container
+        loaderContainer.style.display = 'none';
+      }, 900);
+    
+    } ;
+    window.onload=showloader();
+    </script>
+</body>
+</html>
